@@ -1,40 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# SAFETY: AI-Powered Workplace Safety Solution
 
-## Getting Started
+## Team
+Islem Chammakhi, Oussama Bouchnak, Achraf Laamari, Firas Ben Ali, and Mohamed Kassem Abbassi
 
-First, run the development server:
+## Problem Statement
+Workplace accidents continue to be a significant challenge across industries. Non-compliance with safety equipment requirements is a leading cause of preventable injuries. Traditional safety monitoring relies on manual supervision, which is:
+- Inconsistent
+- Resource-intensive
+- Prone to human error
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+There is also a lack of engaging safety education and real-time feedback for employees.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Why It Matters:** Workplace accidents result in human suffering, lost productivity, regulatory penalties, and increased insurance costs.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Our Solution: SAFETY Platform
+An AI-powered web application that transforms workplace safety management:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **Real-time PPE Detection:** Automated verification of proper safety equipment usage
+- **AI-Generated Safety Notifications:** Personalized safety reminders and educational content
+- **Safety Analytics Dashboard:** Data-driven insights into compliance rates and risk areas
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+**Target Audience:** Manufacturing facilities, construction companies, industrial plants, and any environment with strict safety equipment requirements
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key Use Cases
+- **Safety Compliance Verification:** Instantly detect if employees are wearing required safety equipment (helmets, vests, safety shoes)
+- **Safety Knowledge Enhancement:** Regular AI-generated notifications educate employees about safety best practices
+- **Compliance Monitoring:** Track safety equipment usage rates across departments or work areas
+- **Risk Identification:** Identify trends and areas requiring additional safety focus
 
-## Learn More
+## Solution Architecture: Functional View
+**Three Core Components:**
 
-To learn more about Next.js, take a look at the following resources:
+1. **Employee Safety Detection System**
+   - Camera-based image capture
+   - AI analysis of safety equipment usage
+   - Real-time alerts for non-compliance
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+2. **AI Notification Engine**
+   - Contextual safety reminders
+   - Educational content generation
+   - Personalized safety messaging
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Analytics Dashboard**
+   - Safety compliance statistics
+   - Trend analysis
+   - Performance comparisons
 
-## Deploy on Vercel
+## Solution Architecture: Technical View
+**Frontend:**
+- Next.js for responsive web interface
+- Tailwind CSS for modern, adaptive design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Backend:**
+- Image Processing Pipeline
+- AI Analysis Engine
+- Notification Management System
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+**AI Technologies:**
+- Gemini 2.0 Flash API for image analysis
+- Custom computer vision libraries for equipment detection
+- Domain-specific AI notification generation
+
+## AI Implementation Details
+**PPE Detection:**
+Gemini 2.0 Flash API trained to recognize:
+- Safety helmets/hard hats
+- High-visibility vests
+- Safety footwear
+- Additional equipment as required
+
+**Notification Generation:**
+Gemini 2.0 Flash API fine-tuned for industrial safety domain with contextually aware message generation based on:
+- User role and department
+- Recent compliance history
+- Industry-specific safety requirements
+
+## Expected Results & Proof of Concept
+**Key Metrics:**
+- 90%+ accuracy in PPE detection
+- 30% improvement in safety compliance rates
+- Significant reduction in safety incidents
+
+**Proof of Concept:**
+- Functional detection system identifying common safety equipment
+- Sample notification system with industry-relevant messaging
+- Basic analytics dashboard showing compliance trends
+
+## Impact & Benefits
+**For Companies:**
+- Reduced workplace accidents and related costs
+- Improved regulatory compliance
+- Data-driven safety management
+- Enhanced safety culture
+
+**For Employees:**
+- Increased safety awareness
+- Reduced risk of injury
+- Continuous education on safety best practices
+- Gamified approach to compliance
+
+## Challenges & Solutions
+**Challenges:**
+- Ensuring detection accuracy in varied lighting conditions
+- Privacy concerns with camera-based monitoring
+- Encouraging consistent platform usage
+
+**Our Approach:**
+- Extensive AI model training with diverse environmental data
+- Privacy-first design with immediate processing (no long-term image storage)
+- User-friendly interface and engaging notification system
+
+## Next Steps
+- Complete development of full detection system
+- Expand notification system capabilities
+- Develop comprehensive analytics dashboard
+- Conduct pilot testing in partner industrial environments
+- Gather feedback for platform refinement
