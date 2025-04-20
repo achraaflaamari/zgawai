@@ -1,7 +1,9 @@
+[🔗 Visit the SAFETY AI Platform](https://safetyai.vercel.app)
+
 # SAFETY: AI-Powered Workplace Safety Solution
 
 ## Team
-Islem Chammakhi, Oussama Bouchnak, Achraf Laamari, Firas Ben Ali, and Mohamed Kassem Abbassi
+Islem Chammakhi, Oussama Bouchnak, Achraf Lamari, Firas Ben Ali, and Mohamed Kassem Abbassi
 
 ## Problem Statement
 Workplace accidents continue to be a significant challenge across industries. Non-compliance with safety equipment requirements is a leading cause of preventable injuries. Traditional safety monitoring relies on manual supervision, which is:
